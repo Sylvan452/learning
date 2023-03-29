@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="">
+        <label for="name">Name (4 to 8 characters):</label></form>
+<p>
+<label for="name"><input type="text" placeholder="name" id="name" name="username" required
+       minlength="4" maxlength="8" size="10"></label</p>
+       <p>
+       <input type="password" placeholder="password"></p>
+    <p>
+    <input type="radio" id="huey" name="drone" value="huey" checked>
+  <label for="huey">Huey</label></p>
+  <p>
+  <input type="radio" id="sylva" name="drone" value="sylva" checked>
+  <label for="sylva">Sylva</label>
+  <div class="preference"></p>
+    <label for="cheese">Do you like cheese?</label>
+    <input type="checkbox" name="cheese" id="cheese">
+    <p><label for="meal">please select your meal</label>
+    <select name="meal" id="meal">
+        <option value="fish">Fish</option>
+        <option value="veg">Vegetable</option>
+        <option value="steak">Steak</option>
+    </select></p>
+</div>
+<div class="preference">
+    <label for="peas">Do you like peas?</label>
+    <input type="checkbox" name="peas" id="peas">
+    <p></p><label for="cheese">amount of acaheese</label>
+    <input type="range" id="cheese" min="1" maxlength="10" name="cheese_level"></p>
+    <p>
+        <label for="">Any Special Order<label>
+        <textarea name="" id="requests" cols="40" rows="" placeholder="what is your order?"></textarea>
+    </p>
+    <button>submit</button>
+    <h2>Validation Demo</h2>
+    <form action="dummy">
+        <label for="first" name="first" id="first" ></label>
+        <input type="text" name="first" required>
+        <p>
+            <label for="username">username</label>
+            <input type="text" id="username" name="username" minlength="5" max="20" required>
+            <label for="email">Email</label>
+            <input type="email" required>
+        </p>
+        <button>submit</button>
+
+    </form>
+</div>
+</body>
+</html>
